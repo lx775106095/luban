@@ -26,6 +26,8 @@ luban高效地处理游戏开发中常见的excel、json、xml之类的数据，
 
 luban统一了游戏配置开发工作流，极大提升了策划和程序的工作效率。
 
+你的最佳游戏配置解决方案  {excel, csv, xls, xlsx, json, bson, xml, yaml, lua, unity scriptableobject} => {json, bson, xml, lua, yaml, protobuf(pb), msgpack, flatbuffers, erlang, custom template} data  +  {c++, java, c#, go(golang), lua, javascript(js), typescript(ts),  erlang, rust, gdscript, protobuf schema, flatbuffers schema, custom template} code。 不仅仅是导表工具。支持unity , ue4, tolua, xlua, slua, ilruntime, puerts等热更新插件；强大的数据校验能力；完善的本地化机制。a powerful game config export tool and code generator that supports for i18n and l10n.   
+
 ## 核心特性
 
 - 强大的数据解析和转换能力 {excel(csv,xls,xlsx)、json、bson、xml、yaml、lua、unity ScriptableObject} => {binary、json、bson、xml、lua、yaml、erlang、 custom format}
